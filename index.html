@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <meta name="theme-color" content="#2c3e50" />
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <div id="timer">Timer: 5</div>
+  <div class="game">
+    <button class="choice" data-choice="rock">🪨 Rock</button>
+    <button class="choice" data-choice="paper">📄 Paper</button>
+    <button class="choice" data-choice="scissors">✂️ Scissors</button>
+  </div>
+  <div id="result"></div>
+  <div id="score">You: 0 | Computer: 0</div>
+  <button onclick="resetScore()">🔄 Reset Score</button>
+  <h3>History</h3>
+  <ul id="history"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
